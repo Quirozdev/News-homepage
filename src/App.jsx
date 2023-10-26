@@ -1,5 +1,3 @@
-import logo from './assets/images/logo.svg';
-import iconMenu from './assets/images/icon-menu.svg';
 import webImageDesktop from './assets/images/image-web-3-desktop.jpg';
 import webImageMobile from './assets/images/image-web-3-mobile.jpg';
 import retroPcImg from './assets/images/image-retro-pcs.jpg';
@@ -7,16 +5,12 @@ import laptopKeyboardImg from './assets/images/image-top-laptops.jpg';
 import gamingGrowthImg from './assets/images/image-gaming-growth.jpg';
 import NewArticles from './components/NewArticles';
 import Article from './components/Article';
+import Navbar from './components/Navbar';
 
 function App() {
   return (
     <div className="flex flex-col gap-8 p-8 font-inter">
-      <div className="flex items-center justify-between">
-        <img src={logo} alt="logo" />
-        <button>
-          <img src={iconMenu} alt="menu icon" />
-        </button>
-      </div>
+      <Navbar />
       <img
         src={webImageMobile}
         srcSet={`${webImageMobile} 686w, ${webImageDesktop} 1460w`}
@@ -30,7 +24,7 @@ function App() {
         of the platforms back into the hands of the people. But is it really
         fulfilling its promise?
       </p>
-      <button className="self-start py-3 text-base px-9 bg-soft-red text-off-white">
+      <button className="self-start py-3 text-base tracking-[0.2rem] px-9 bg-soft-red text-off-white">
         READ MORE
       </button>
       <NewArticles />
