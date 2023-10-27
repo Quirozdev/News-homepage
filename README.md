@@ -21,4 +21,4 @@ This is a solution to the [News homepage challenge on Frontend Mentor](https://w
 ### Links
 
 - Solution URL: [Repository](https://github.com/Quirozdev/News-homepage)
-- Live Site URL: [Live Demo]()
+- Live Site URL: [Live Demo](https://quirozdev.github.io/News-homepage/)
