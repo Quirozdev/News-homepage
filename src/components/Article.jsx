@@ -1,6 +1,6 @@
 const Article = ({ index, title, summary, imgSrc }) => {
   return (
-    <article className="grid grid-cols-[100px_1fr] gap-6 items-center">
+    <article className="grid grid-cols-[100px,1fr] gap-6">
       <img src={imgSrc} alt={title} className="block" />
       <div className="flex flex-col gap-1">
         <p className="text-3xl font-bold text-grayish-blue">{index}</p>

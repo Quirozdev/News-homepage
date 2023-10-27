@@ -7,10 +7,6 @@ export default {
         inter: ['Inter', 'sans-serif'],
       },
     },
-    screens: {
-      mobile: '375px',
-      desktop: '1440px',
-    },
     colors: {
       'soft-orange': 'hsl(35, 77%, 62%)',
       'soft-red': 'hsl(5, 85%, 63%)',
